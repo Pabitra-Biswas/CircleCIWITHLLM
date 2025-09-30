@@ -1,5 +1,4 @@
 from langchain.prompts import ChatPromptTemplate
-from langchain.chat_models import ChatOpenAI
 from langchain.schema.output_parser import StrOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI
 delimiter = "####"
